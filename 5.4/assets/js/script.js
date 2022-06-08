@@ -82,15 +82,19 @@ $(".card .list-group").sortable({
   helper: "clone",
   activate: function(event, ui) {
     console.log(ui);
+    // $(this).addClass("dropover");
   },
   deactivate: function(event, ui) {
     console.log(ui);
+    // $(this).removeClass("dropover");
   },
   over: function(event) {
     console.log(event);
+   // $(this).eventTarget("dropover");
   },
   out: function(event) {
     console.log(event);
+    // $(this).eventTarget("dropoever-active");
   },
   update: function() {
     var tempArr = [];

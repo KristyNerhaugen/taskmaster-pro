@@ -14,3 +14,11 @@ h5,
 h6 {
   font-family: "Staatliches", sans-serif;
 }
+
+.dropzone {
+  background-color: rbga(0,0,0,0.3);
+}
+
+.dropover-active {
+  background-color: rbga(0,0,0,0.9);
+}
